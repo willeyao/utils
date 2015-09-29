@@ -7,4 +7,8 @@ public class NumberUtil {
 	public static int random(int num){
 		return RND.nextInt(num);
 	}
+	
+	public static void main(String[] args){
+		System.out.println(random(100));
+	}
 }
