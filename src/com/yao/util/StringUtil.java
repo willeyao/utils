@@ -1,17 +1,24 @@
 package com.yao.util;
 
 /**
- * util of String
- * @author yao
- *
+ * Util of String
  */
 public class StringUtil {
 	/**
-	 * check if a String is null or empty
-	 * @param arg the String
-	 * @return true:is null or empty
+	 * Check if String is null or empty
+	 * @param str the String
+	 * @return true:is empty
 	 */
-	public static boolean isEmpty(String arg){
-		return arg==null || "".equals(arg) || arg.trim().equals("");
+	public static boolean isEmpty(String str){
+		return str==null || str.trim().equals("");
+	}
+
+	/**
+	 * Check if String is not null or empty
+	 * @param str
+	 * @return true:is not empty
+	 */
+	public static boolean isNotEmpty(String str){
+		return str != null && !str.trim().equals("");
 	}
 }

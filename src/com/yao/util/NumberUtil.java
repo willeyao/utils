@@ -4,6 +4,12 @@ import java.util.Random;
 
 public class NumberUtil {
 	public static final Random RND = new Random();
+
+	/**
+	 *
+	 * @param num
+	 * @return
+	 */
 	public static int random(int num){
 		return RND.nextInt(num);
 	}
