@@ -1,1 +1,7 @@
+# bin目录
 /bin/
+# .idea目录
+.idea/
+# iml文件
+*.iml
+
